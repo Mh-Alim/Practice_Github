@@ -53,6 +53,7 @@ body {
       left: 20%;
       top: 30%;
       font-family: 'Montserrat', sans-serif;
+      padding: 10px 10px;
   }
   .homeImg img{
       width: 100%;
@@ -67,7 +68,7 @@ body {
   .htxt2{
       position: absolute;
       width: 28%;
-      top: 50%;
+      top: 70%;
       left: 20%;
   }
 
