@@ -85,34 +85,6 @@ body {
         justify-content: center;
         height: 700px;
     }
-
-    .yellowLine{
-        background-color: yellow;
-        height: 5px;
-        width: 5%;
-
-    }
-
-    .readBtn{
-        background-color: yellow;
-        width: 15%;
-        height: 30px;
-        text-align: center;
-        padding-top: 6px;
-        cursor: pointer;
-    }
-
-    .fp{
-        margin: 34px 23px;
-        margin-left: 20%;
-        padding-right: 200px;
-    }
-    div .one {
-        font-size: 3rem;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 20%;
-    }
-
     .yellowLine{
         margin-top: 0px;
         margin-bottom: 0px;
@@ -284,7 +256,27 @@ body {
 
     /* my Third background is started */
 
-    
+    .thirdbg{
+        position: relative;
+    }
+    .y_bg_color{
+        position: absolute;
+        top: 220px;
+        right: 190px;
+        width: 30%;
+        height: 400px;
+        background-color: rgb(192, 192, 91);
+    }
+
+    .th_bg_img{
+        position: absolute;
+        top: 250px;
+        right: 190px;
+        width: 40%;
+    }
+    .th_bg_img img{
+        width: 70%;
+    }
 
 
 
