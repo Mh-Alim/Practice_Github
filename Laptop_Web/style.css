@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,200;1,200&display=swap');
 
 body {
     margin: 0;
@@ -147,12 +148,12 @@ body {
 
     .whitebg{
         width: 110%;
-        height: 560px;
+        height: 587px;
         background-color: white;
         position: absolute;
         top: 70px;
         right: 20%;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     .whitebg{
@@ -161,7 +162,134 @@ body {
         grid-template-rows: 280px 280px;
     }
 
+    .plugImg img{
+        width: 30%;
+    }
+    .keyboardImg img{
+        width: 30%;
+
+    }
+    .batteryImg img{
+        width: 30%;
+
+    }
+    .laptopImg img{
+        width: 30%;
+    }
+
+    .plugImg{
+        text-align: center;
+        padding-top: 23px;
+        margin-right: 22px;
+
+    }
+    .keyboardImg{
+        text-align: center;
+        padding-top: 23px;
+    }
+    .batteryImg{
+        text-align: center;
+        padding-top: 23px;
+    }
+    .laptopImg{
+        text-align: center;
+        padding-top: 23px;
+    }
+    .sec_one{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec_p_txt{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 12px 0px;
+    }
+
+    .sec_p_txt2{
+        font-family: 'Georama', sans-serif;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0px 23px;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+
+    .sec_two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btxt1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 12px 0px;
+    }
+    .btxt2{
+        font-family: 'Georama', sans-serif;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0px 23px;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+
+    .sec_three{
+        display: flex;
+        flex-direction: column;
+    }
+    .ltxt1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 12px 0px;
+    }
+    .ltxt2{
+        font-family: 'Georama', sans-serif;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0px 23px;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+    .sec_four{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ktxt1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 12px 0px;
+    }
+
+    .ktxt2{
+        font-family: 'Georama', sans-serif;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0px 23px;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+
+    /* my Third background is started */
+
     
+
+
+
+
+
 
 
 
