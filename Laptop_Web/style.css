@@ -384,13 +384,79 @@ body {
     }
     .finnerImg{
         position: absolute;
-        top: 300px;
-        left: 10%;
+        top: 200px;
+        left: 0px;
         color: white;
     }
 
+    .ftxt1{
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ftxts{
+        width: 40%;
+    }
+    .ft{
+        margin: 30px 0px;
+    }
+    .fBtn{
+        color: black;
+    }
+    .ftxt2{
+        line-height: 1.5;
+    }
 
 
+    .fimgs{
+        margin-left: 15%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40%;
+        row-gap: 50px;
+        column-gap: 50px;
+    }
+
+    .p1{
+        width: 100%;
+        
+    }
+    .p1 img{
+        
+        width: 100%;
+        height: 305px;
+        object-fit: cover;
+    }
+    .p2{
+        width: 100%;
+    }
+    .p2 img{
+        width: 100%;
+        height: 305px;
+        object-fit: cover;
+    }
+    .p3{
+        width: 100%;
+    }
+    .p3 img{
+        width: 100%;
+        height: 305px;
+        object-fit: cover;
+    }
+    .p4{
+        width: 100%;
+    }
+    .p4 img{
+        width: 100%;
+        height: 305px;
+        object-fit: cover;
+    }
+
+    .finnerImg{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
 
 
 
