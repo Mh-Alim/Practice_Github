@@ -347,6 +347,63 @@ body {
     }
 
 
+    /* start working on fourth background */
+
+    .fbg{
+        margin-top: 800px;
+        
+        width: 100%;
+    }
+    .fbg img{
+        height: 800px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .fcolor{
+        width: 44px;
+        height: 7px;
+        background-color: yellow;
+    }
+
+    .fBtn{
+        width: 250px;
+        height: 35px;
+        background-color: rgb(223, 223, 13);
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        cursor: pointer;
+    }
+
+
+
+    .fourth{
+        position: relative;
+    }
+    .finnerImg{
+        position: absolute;
+        top: 300px;
+        left: 10%;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
