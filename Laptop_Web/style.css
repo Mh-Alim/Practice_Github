@@ -462,6 +462,98 @@ body {
     }
 
 
+    /* start working on fifth bg */
+
+    .fImg1 img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .fImg2 img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .fImg3 img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .fImg4 img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .sqImg{
+        display: grid;
+        width: 30%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px 200px;
+    }
+
+    .startBtn{
+        position: absolute;
+        left: 8%;
+        top: 15%;
+        background-color: rgb(206, 206, 11);
+        width: 80%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fImg2{
+        position: relative;
+    }
+
+    .ft1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.25rem;
+    }
+
+
+    .fyline{
+        background-color: rgb(202, 202, 23);
+        width: 30px;
+        height: 7px;
+    }
+
+    .ft2{
+        font-size: 1rem;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+
+    .rmBtnf{
+        background-color: rgb(202, 202, 23);
+        width: 100px;
+        padding: 10px;
+        
+    }
+
+    .fiveBg{
+        display: flex;
+        margin-top: 100px;
+    }
+    
+    .f{
+        margin: 30px 20px;
+    }
+    .sqImg{
+        margin-left: 20%;
+    }
+
+    .fivTexts{
+        margin-top: 100px;
+        width: 30%;
+        margin-left: 60px;
+    }
+
+
+
 
 
 
