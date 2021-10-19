@@ -384,7 +384,7 @@ body {
     }
     .finnerImg{
         position: absolute;
-        top: 200px;
+        top: 125px;
         left: 0px;
         color: white;
     }
@@ -398,7 +398,9 @@ body {
         width: 40%;
     }
     .ft{
+        text-align: left;
         margin: 30px 0px;
+        margin-left: 35px;
     }
     .fBtn{
         color: black;
@@ -409,12 +411,12 @@ body {
 
 
     .fimgs{
-        margin-left: 15%;
+        margin-left: 5%;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 45% 45%;
         grid-template-rows: 40% 40%;
-        row-gap: 50px;
-        column-gap: 50px;
+        row-gap: 80px;
+        column-gap: 0px;
     }
 
     .p1{
@@ -423,7 +425,7 @@ body {
     }
     .p1 img{
         
-        width: 100%;
+        width: 70%;
         height: 305px;
         object-fit: cover;
     }
@@ -431,7 +433,7 @@ body {
         width: 100%;
     }
     .p2 img{
-        width: 100%;
+        width: 70%;
         height: 305px;
         object-fit: cover;
     }
@@ -439,7 +441,7 @@ body {
         width: 100%;
     }
     .p3 img{
-        width: 100%;
+        width: 70%;
         height: 305px;
         object-fit: cover;
     }
@@ -447,7 +449,7 @@ body {
         width: 100%;
     }
     .p4 img{
-        width: 100%;
+        width: 70%;
         height: 305px;
         object-fit: cover;
     }
@@ -456,6 +458,7 @@ body {
         display: flex;
         text-align: center;
         justify-content: space-between;
+        top: 100px;
     }
 
 
