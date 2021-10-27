@@ -553,8 +553,57 @@ body {
     }
 
 
+    /* Start Working on sixth background */
 
+    .six{
+        margin-top: 80px;
+    }
+    .six1st{
+        width: 48%;
+        position: relative;
+    }
+    .s1color{
+        height: 800px;
+        width: 100%;
+        background-color: rgb(57 52 63);
+    }
 
+    .sH{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.3rem;
+        color: white;
+        padding: 30px 0px;
+    }
+
+    .stxts{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        padding: 150px;
+
+    }
+    .syl{
+        background-color: rgb(202, 202, 23);
+        width: 100px;
+        height: 6px;
+        margin: 30px 0px;
+    }
+
+    .sbn{
+        background-color: rgb(207, 207, 19);
+        width: 122px;
+        height: 34px;
+        margin: 30px 0px;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .st1{
+        padding: 30px 0px;
+        color: white;
+    }
 
 
 
