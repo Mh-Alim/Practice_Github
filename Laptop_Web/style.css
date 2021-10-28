@@ -726,13 +726,6 @@ body {
 
 
 
-
-
-
-
-
-
-
   @media screen and (max-width: 600px){
       .topnav a:not(:first-child){
           display: none;
@@ -756,3 +749,83 @@ body {
       }
   }
 
+  @media screen and (max-width:1000px){
+      .fivTexts{
+          margin-top: -39px;
+      }
+      div .one{
+          margin-left: 10%;
+      }
+      .fp{
+          margin-left: 10%;
+      }
+      .p1 img{
+        width: 66%;
+        height: 218px;
+      }
+      .p2 img {
+        width: 66%;
+        height: 218px
+    }
+    .p3 img {
+        width: 66%;
+        height: 218px;
+    }
+    .p4 img {
+        width: 66%;
+        height: 218px;
+    }
+    .btxt2{
+        overflow: scroll;
+    }
+    .sec_p_txt2{
+        overflow: scroll;
+    }
+    .ltxt2{
+        overflow: scroll;
+    }
+    .ktxt2{
+        overflow: scroll;
+    }
+  }
+
+
+  @media screen and (max-width: 860px){
+    div .one{
+        font-size: 2.25rem;
+    }
+    .readBtn{
+        width: 30%;
+    }
+  }
+
+  @media screen and (max-width: 764px){
+    .name input {
+        width: 189%;
+    }
+    .email input{
+        width: 189%;
+    }
+    .message textarea{
+        width: 189%;
+    }
+    .fImg1 img{
+        height: 150px;
+    }
+    .fImg2 img {
+        height: 150px;
+    }
+    .fImg3 img{
+        height: 150px;
+    }
+    .fImg4 img{
+        height: 150px;
+    }
+    .startBtn{
+        height: 80px;
+    } 
+    
+    .sqImg{
+        grid-template-rows: 150px 150px;
+    }
+  }
