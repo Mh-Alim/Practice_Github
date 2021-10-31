@@ -408,7 +408,8 @@ body {
     .ftxt2{
         line-height: 1.5;
     }
-
+    
+   
 
     .fimgs{
         margin-left: 5%;
@@ -428,6 +429,7 @@ body {
         width: 70%;
         height: 305px;
         object-fit: cover;
+        border-radius: 13%;
     }
     .p2{
         width: 100%;
@@ -436,6 +438,7 @@ body {
         width: 70%;
         height: 305px;
         object-fit: cover;
+        border-radius: 13%;
     }
     .p3{
         width: 100%;
@@ -444,6 +447,7 @@ body {
         width: 70%;
         height: 305px;
         object-fit: cover;
+        border-radius: 13%;
     }
     .p4{
         width: 100%;
@@ -452,6 +456,7 @@ body {
         width: 70%;
         height: 305px;
         object-fit: cover;
+        border-radius: 13%;
     }
 
     .finnerImg{
@@ -459,6 +464,9 @@ body {
         text-align: center;
         justify-content: space-between;
         top: 100px;
+    }
+    .m1{
+        text-align: center;
     }
 
 
@@ -828,4 +836,24 @@ body {
     .sqImg{
         grid-template-rows: 150px 150px;
     }
+  }
+
+  @media screen and (max-width: 744px){
+        .htxt{
+            text-align: left;
+            font-size: 2.25rem;
+        }
+        .htxt2{
+            text-align: justify;
+            font-weight: 200;
+        }
+
+        div .firstPart{
+            background-color: transparent;
+        }
+        div .firstBackground{
+            background-color: #2c2933;
+            height: ;
+            width: 55%;
+        }
   }
